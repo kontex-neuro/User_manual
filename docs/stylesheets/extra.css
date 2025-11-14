@@ -5,13 +5,12 @@
 }
 
 @font-face {
-  font-family: "Symbol";
-  src: url("Symbol.ttf") format('truetype');
+  font-family: "SF Hello Light";
+  src: url("sf-hello-light.ttf") format('truetype');
 }
 
 :root {
-  --md-text-font-family: "Symbol", symbols;
-  /* --md-code-font: "Symbol"; */
+  --md-text-font: "SF Hello Light";
 }
 
 img[alt=test1] {
