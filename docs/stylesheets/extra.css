@@ -1,0 +1,51 @@
+:root>* {
+  --md-primary-fg-color: hsl(43, 30%, 51%);
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark: #9b9b9b;
+}
+
+@font-face {
+  font-family: "Symbol";
+  src: url("Symbol.ttf") format('truetype');
+}
+
+:root {
+  --md-text-font-family: "Symbol", symbols;
+  /* --md-code-font: "Symbol"; */
+}
+
+img[alt=test1] {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+img[alt=test2] {
+  display: right;
+  width: 100%;
+  margin: auto;
+}
+
+/*  */
+.text-block {
+  width: 700px;            /*可依頁面需求調整寬度 */
+  margin: 20px auto;       /* 區塊置中 */
+  text-align: justify;      /*左右對齊 */
+  line-height: 1.6em;       /* 調整行距，增加可讀性 */
+  font-size: 16px;
+}
+
+.text-block1 {
+  width: 700px;            /* 可依頁面需求調整寬度 */
+  margin: 20px auto;       /* 區塊置中 */
+  text-align: justify;      /* 左右對齊 */
+  line-height: 1em;       /* 調整行距，增加可讀性 */
+  font-size: 16px;
+}
+
+.text-block2 {
+  text-align: right;      /* 左右對齊 */
+  line-height: 0.8em;       /* 調整行距，增加可讀性 */
+  font-size: 16px;
+}
+

@@ -1,0 +1,71 @@
+site_name: UserManual
+
+theme:
+  name: "material"
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to system preference
+
+  
+  font: 
+    text: false
+  logo: KonteX.png
+
+nav:
+  - XDAQ: 
+    - XDAQ CORE2: xdaq_core2.md
+    - XDAQ ONE+: xdaq_one.md
+    - XDAQ AIO: xdaq_aio.md
+    - IO Expander: io_expander.md
+  - Headstage: 
+    - X3R: X3R.md 
+    - X3SR: X3SR.md
+    - X6R: X6R.md
+    - XeR: XeR.md
+    - XeSR: XeSR.md
+  - Commutator:
+    - Standard Commutator HDMI: Standard_Commutator_HDMI.md
+    - Commutator PRO: Commutator_PRO.md
+  - EIB:
+    - Adpt-JP-X3: Adpt-JP-X3.md
+    - EIB32-LRCombo: EIB32-LRCombo.md
+    - EIB Left 32ch: EIB32-L.md
+    - EIB32-R: EIB32-R.md
+    - EIB16-M1S: EIB16-M1S.md
+    - EIB32-M1S: EIB32-M1S.md
+    - EIB32SR: EIB32SR.md
+  # - Probe Adapter:
+  # #Adpt-A16
+  # #Adpt-A32
+  # #Adpt-A64
+  # #Adpt-MEA-MCS8x8
+  # #Adpt-MEA
+  # #Adpt-SRRemap
+  # #Adpt-OM16
+  # #Adpt-OM32
+  # #Adpt-OM32-Stim
+  # #Adpt-OM64
+  # #Adpt-X3-M1P16
+  # #Adpt-X3R32-M1P32
+  # #Adpt-X6toX3
+  # #Adpt-NNx-X3-16CH
+  # #Adpt-X3-EXT
+  # #Adpt-X6-EXT
+  # - System Adapter:
+  # #SAdpt-EXP-BNC
+  # #
+
+extra_css:
+  - stylesheets/extra.css
