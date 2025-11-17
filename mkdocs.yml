@@ -1,4 +1,7 @@
 site_name: User Manual
+site_url: https://kontex-neuro.github.io/UserManual/
+site_description: User Manual for KonteX Neuroscience Products
+copyright: Copyright &copy; 2025 <a href="https://www.kontex.io/" target="_blank" rel="noopener">KonteX Neuroscience</a>
 
 theme:
   name: "material"
@@ -85,38 +88,6 @@ nav:
   - Instrument:
     - Inst-BrainSim: Inst_BrainSim.md
     - Short-Circuit-Analyzer: Short_Circuit_Analyzer.md
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 
 extra_css:
   - stylesheets/extra.css
