@@ -1,4 +1,4 @@
-site_name: UserManual
+site_name: User Manual
 
 theme:
   name: "material"
@@ -39,33 +39,84 @@ nav:
     - Standard Commutator HDMI: Standard_Commutator_HDMI.md
     - Commutator PRO: Commutator_PRO.md
   - EIB:
-    - Adpt-JP-X3: Adpt-JP-X3.md
-    - EIB32-LRCombo: EIB32-LRCombo.md
-    - EIB Left 32ch: EIB32-L.md
-    - EIB32-R: EIB32-R.md
-    - EIB16-M1S: EIB16-M1S.md
-    - EIB32-M1S: EIB32-M1S.md
+    - Adpt-JP-X3: Adpt_JP_X3.md
+    - EIB32-LRCombo: EIB32_LRCombo.md
+    - EIB Left 32ch: EIB32_L.md
+    - EIB32-R: EIB32_R.md
+    - EIB16-M1S: EIB16_M1S.md
+    - EIB32-M1S: EIB32_M1S.md
     - EIB32SR: EIB32SR.md
-  # - Probe Adapter:
-  # #Adpt-A16
-  # #Adpt-A32
-  # #Adpt-A64
-  # #Adpt-MEA-MCS8x8
-  # #Adpt-MEA
-  # #Adpt-SRRemap
-  # #Adpt-OM16
-  # #Adpt-OM32
-  # #Adpt-OM32-Stim
-  # #Adpt-OM64
-  # #Adpt-X3-M1P16
-  # #Adpt-X3R32-M1P32
-  # #Adpt-X6toX3
-  # #Adpt-NNx-X3-16CH
-  # #Adpt-X3-EXT
-  # #Adpt-X6-EXT
-  # - System Adapter:
-  # #SAdpt-EXP-BNC
-  # #
+  - Probe Adapter:
+    - Adpt-A16: Adpt_A16.md
+    - Adpt-A32: Adpt_A32.md
+    - Adpt-A64: Adpt_A64.md
+    - Adpt-MEA-MCS8x8: Adpt_MEA_MCS8x8.md
+    - Adpt-MEA: Adpt_MEA.md
+    - Adpt-SRRemap: Adpt_SRRemap.md
+    - Adpt-OM16: Adpt_OM16.md
+    - Adpt-OM32: Adpt_OM32.md
+    - Adpt-OM32-Stim: Adpt_OM32_Stim.md
+    - Adpt-OM64: Adpt_OM64.md
+    - Adpt-X3-M1P16: Adpt_X3_M1P16.md
+    - Adpt-X3R32-M1P32: Adpt_X3R32_M1P32.md
+    - Adpt-X6toX3: Adpt_X6toX3.md
+    - Adpt-NNx-X3-16CH: Adpt_NNx_X3_16CH.md
+    - Adpt-X3-EXT: Adpt_X3_EXT.md
+    - Adpt-X6-EXT: Adpt_X6_EXT.md
+  - System Adapter:
+    - SAdpt-EXP-BNC: SAdpt_EXP_BNC.md
+    - SAdpt-HDMI-OM12: SAdpt_HDMI_OM12.md
+    - SAdpt-HDMI-OM16: SAdpt_HDMI_OM16.md
+    - SAdpt-Port-EXP: SAdpt_Port_EXP.md
+    - SAdpt-SR64: SAdpt_SR64.md
+    - SAdpt-uHDMI-Smartlink: SAdpt_uHDMI_Smartlink.md
+    - SAdpt-XDAQ-BNC: SAdpt_XDAQ_BNC.md
+    - SAdpt-XDAQ-OM12: SAdpt_XDAQ_OM12.md
+    - SAdpt-XDAQ-OM16: SAdpt_XDAQ_OM16.md
+    - SAdpt-XDAQ-Smartlink: SAdpt_XDAQ_Smartlink.md
+  - Accessory:
+    - Tester-Stim-X3: Tester_Stim_X3.md
+    - Tester-Z-X3: Tester_Z_X3.md
+    - XHS-Screw: XHS_Screw.md
+    - XHS-Tool: XHS_Tool.md
+    - Cable-HDMI: Cable_HDMI.md
+    - Cable-NP: Cable_NP.md
+    - XDAQ-Debuger-v2: XDAQ_Debuger_v2.md
+  - Instrument:
+    - Inst-BrainSim: Inst_BrainSim.md
+    - Short-Circuit-Analyzer: Short_Circuit_Analyzer.md
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 extra_css:
   - stylesheets/extra.css

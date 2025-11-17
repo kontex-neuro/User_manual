@@ -1,7 +1,7 @@
 
 ---
 
-<br><br><br><br><br><br>
+<br><br><br>
 
 ![test1](<E﻿I﻿B﻿3﻿2﻿L﻿1.png>)
 
@@ -21,6 +21,7 @@
 <br>
 
 ![test1](<E﻿I﻿B﻿3﻿2﻿L﻿2.png>)
+
 <br>
 <center>EIB Left 32ch</center>
 
@@ -37,6 +38,7 @@
 <br><br><br>
 
 ### **Dimension**
+
 ![test1](<E﻿I﻿B﻿3﻿2﻿L﻿﻿3.png>)
 
 <div class="text-block2">
@@ -58,31 +60,25 @@
     <h4> Robust Contacts</h4>
     Ensures secure and stable electrode connection during experiments.
 </div>
-<br>
-<br>
-<br>
+
+<br><br><br>
 
 ### **Compatible Acquisition System**
 
 <div class="text-block1">
-    <p> • Compatible with X3R32 and X3SR32 headstages. </P>
-    <p> • Designed for electrode arrays utilizing 32-pin Omnetics connectors (1mm pitch).</p>
+    <p> <li>Compatible with X3R32 and X3SR32 headstages.</li> </P>
+    <p> <li>Designed for electrode arrays utilizing 32-pin Omnetics connectors (1mm pitch).</li></p>
 </div>
 
-<br>
-<br>
-<br>
+<br><br><br>
 
 ### **Pin Map**
 <br>
 
 ![test1](<E﻿I﻿B﻿3﻿2﻿L﻿﻿4.png>)
 
-<br>
-<br>
-<br>
-<br>
-<br>
+<br><br><br><br><br>
 
 ---
-![test2](LOGO.png)
+
+![test2](LOGO-1.png)
