@@ -352,8 +352,10 @@
     <strong>Effect:</strong>
     Higher sensitivity increases the system’s responsiveness to small rotational movements of the tether, triggering sensor compensation with less motion input.
     <strong>Usage Scenario:</strong>
+    <ul>
     <Li> <strong>Small animals (e.g., mice) or low-activity experiments:</strong> Turn the Sensitivity knob clockwise to increase responsiveness.</Li>
     <Li> <strong>Large animals or highly active behavior:</strong> Reduce sensitivity to avoid overcompensation and motor jitter.</Li>
+    </ul>
     <h4>&#9313; Speed Knob </h4>
     <strong>Function:</strong>
     Controls the rotation amplitude and velocity (7 increments) of the compensating motor in response to detected movement.
@@ -361,8 +363,10 @@
     <strong>Effect:</strong>
     Higher speed settings result in faster and larger motor responses, while lower settings make the compensation gentler and more gradual.
     <strong>Usage Scenario:</strong>
+    <ul>
     <Li> For <strong>rapid or vigorous animal movements</strong>, increase speed to prevent cable tension buildup.</Li>
     <Li> For <strong>delicate behaviors</strong> (e.g., head-fixed setups or fine-motor experiments), reduce speed for smoother operation.</Li>
+    </ul>
 </div>
 
 <br><br><br><br><br><br>

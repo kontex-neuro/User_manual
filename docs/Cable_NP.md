@@ -17,7 +17,7 @@
 
 <br><br><br>
 
-### **Dimension And Weightw**
+### **Dimension And Weight**
 
 ![test1](Cable-NP-03.png)
 
