@@ -15,6 +15,8 @@
     With its high-bandwidth architecture, extensive I/O options, and precision timing synchronization, the AIO is purpose-built for real-time, closed-loop experiments, multimodal fusion, and large-scale parallel data acquisition across complex behavioral paradigms.
 </div>
 
+<br>
+
 ![test1](<XDAQ AIO-02.png>)
 
 <br><br><br><br><br><br>
@@ -207,7 +209,7 @@
     The Peripheral Port can also be used to connect a Thunderbolt accessory, such as a storage device, which will be accessible from the host PC.
 </div>
 
-<br><br><br>
+<br>
 
 <div class="text-block">
    <h4>2. Download the driver</h4>
@@ -218,10 +220,10 @@
     </ul>
 </div>
 
-<br><br><br>
+<br>
 
 <div class="text-block">
-   <h4>3. Install the driver</h4>
+   <h4>3. Install the driver</h4><br><br>
    <strong>Windows</strong><br>
     1. Before installation, ensure that a "PCI Simple Communications Controller" is listed in the Device Manager.
 </div>
@@ -236,7 +238,7 @@
 
 ![test１](<XDAQ AIO-18.png>)
 
-br><br><br>
+<br><br><br>
 
 <div class="text-block">
    <h4>MacOS</h4>
@@ -273,14 +275,14 @@ br><br><br>
 
 <div class="text-block">
    <h4>4. Download the software</h4>
-   XDAQ can run on popular open source applications.<br>
-   Download the latest from our website: https:// www.kontex.io/software. Note that not all applications supports all experiment modes.
-   <strong>XR Headstages (XR Mode):</strong><br>
-    Open-Ephys ("Install XDAQ Plugin") or XDAQ-RHX
-    <strong>XSR Headstages (XSR Mode):</strong><br>
-    XDAQ-RHX
-    <strong>Neuropixels (NP Mode):</strong><br>
-    Open-Ephys ("Install XDAQ Neuropixels Plugin")
+   XDAQ can run on popular open source applications.
+   Download the latest from our website: https:// www.kontex.io/software. Note that not all applications supports all experiment modes.<br>
+   <strong>XR Headstages (XR Mode):</strong>
+    Open-Ephys ("Install XDAQ Plugin") or XDAQ-RHX<br>
+    <strong>XSR Headstages (XSR Mode):</strong>
+    XDAQ-RHX<br>
+    <strong>Neuropixels (NP Mode):</strong>
+    Open-Ephys ("Install XDAQ Neuropixels Plugin")<br>
 </div>
 
 <br><br><br>
@@ -293,11 +295,11 @@ br><br><br>
 <br><br><br>
 
 <p class="hanging-indent-IMP">
-    &#9888; <strong>IMPORTANT:</strong> A USB-C data cable cannot substitute for the supplied Thunderbolt cable when connecting to the PC.
+    &#9888; <strong>IMPORTANT :</strong> A USB-C data cable cannot substitute for the supplied Thunderbolt cable when connecting to the PC.
 </p>
 
 <p class="hanging-indent-NOTE">
-  <strong>NOTE:</strong> The XDAQ™ is compatible with Thunderbolt cables up to 3 meters in length. If stock Thunderbolt cable will not be used, be sure to select an Intel/Apple-certified cable (identified by a lightning bolt symbol) that complies with Thunderbolt 3 or higher specification.
+  <strong>PRO TIP :</strong> The XDAQ™ is compatible with Thunderbolt cables up to 3 meters in length. If stock Thunderbolt cable will not be used, be sure to select an Intel/Apple-certified cable (identified by a lightning bolt symbol) that complies with Thunderbolt 3 or higher specification.
 </p>
 
 <br><br><br><br><br><br>
@@ -318,7 +320,8 @@ br><br><br>
 
 ![test１](<XDAQ AIO-25.png>)
 
-<div clWhen XDAQ™ is not connected</p>
+<div class="text-block">
+    <p>When XDAQ™ is not connected</p>
 </div>
 
 ![test１](<XDAQ AIO-26.png>)
@@ -352,8 +355,10 @@ br><br><br>
     5.&emsp;If the software does not detect the headstage, ensure that an XR-type headstage is correctly connected and securely attached. Restart the application or rescan the ports.<br>
 </div>
 
+<br>
+
 <p class="hanging-indent-IMP">
-    &#9888; <strong>IMPORTANT:</strong> Using non-KonteX HDMI cables is possible but not recommended. Many commercial cables contain active electronics that can interfere with XDAQ™ communication and potentially damage the XDAQ™ system or the X-Headstage™.
+    &#9888; <strong>IMPORTANT :</strong> Using non-KonteX HDMI cables is possible but not recommended. Many commercial cables contain active electronics that can interfere with XDAQ™ communication and potentially damage the XDAQ™ system or the X-Headstage™.
 </p>
 
 <br><br><br>
@@ -369,10 +374,10 @@ br><br><br>
     7.&emsp;If the PC experiences difficulty keeping up with the data transfer, the S2 LED will flash.
 </div>
 
-<br><br><br>
+<br>
 
 <p class="hanging-indent-IMP">
-    &#9888; <strong>IMPORTANT:</strong> Using non-KonteX HDMI cables is possible but not recommended. Many commercial cables contain active electronics that can interfere with XDAQ™ communication and potentially damage the XDAQ™ system or the X-Headstage™.
+    &#9888; <strong>IMPORTANT :</strong> Currently, it is not possible to use Probes/Headstages from different modes simultaneously (e.g. X3SR32 and X6R128 headstages simultaneously or X3SR32 headstage/probe with the Neuropixels).
 </p>
 
 <br><br><br><br><br><br>
@@ -380,10 +385,10 @@ br><br><br>
 ### **PC Requirement**
 
 <div class="text-block">
-    The XDAQTM AIO requires a modern PC with a minimum of a 6-core CPU, 16 GB of RAM, and at least one Thunderbolt 3 (or higher) port, identifiable by the lightning bolt symbol.
+    The XDAQ™ AIO requires a modern PC with a minimum of a 6-core CPU, 16 GB of RAM, and at least one Thunderbolt 3 (or higher) port, identifiable by the lightning bolt symbol.
 </div>
 
-<br><br><br>
+<br>
 
 <div class="text-block">
     <h4>Reference PC configuration</h4>
@@ -392,6 +397,8 @@ br><br><br>
 </div>
 
 ![test１](<XDAQ AIO-27.png>)
+
+<br>
 
 <p class="hanging-indent-IMP">
     &#9888; <strong>IMPORTANT:</strong> While Thunderbolt and USB-C share the same physical connector, they are not interchangeable. Thunderbolt offers significantly higher data transfer rates and requires specific compatible cables. Retrofitting a PC with a Thunderbolt add-on card is generally impractical, as these cards are model-specific and often incompatible with other systems. To prevent compatibility issues, users should verify that their PC includes native Thunderbolt support.
@@ -431,15 +438,17 @@ br><br><br>
 
 ![test１](<XDAQ AIO-29.png>)
 
+<br>
+
 <div class="text-block">
     <h4>Software resources & downloads</h4>
-    For camera setup instructions, recording configuration, and real-time viewing via Thor Vision, please visit our official software page (Thor Vision Software Portal: https://kontex-neuro.github.io/ThorVision/)
+    For camera setup instructions, recording configuration, and real-time viewing via Thor Vision, please visit our official software page<br> (Thor Vision Software Portal: https://kontex-neuro.github.io/ThorVision/)
 </div>
 
 <br><br><br>
 
 <p class="hanging-indent-IMP">
-    &#9888; <strong>IMPORTANT:</strong> To ensure optimal performance distribution, users are advised to connect cameras or USB hubs evenly across the four USB ports on both sides of the system.
+    &#9888; <strong>IMPORTANT :</strong> To ensure optimal performance distribution, users are advised to connect cameras or USB hubs evenly across the four USB ports on both sides of the system.
 </p>
 
 <br><br><br><br><br><br>
